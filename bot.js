@@ -13,4 +13,5 @@ A7MD.on("guildMemberAdd", member => {
 الدعووة خاصة لك ... [ ${member}  ]
 **`) 
 }).catch(console.error)
-})
+}) 
+A7MD.login(process.env.BOT_TOKEN);
